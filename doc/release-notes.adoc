@@ -12,7 +12,7 @@ The Anypoint Connector for Content Management Interoperability Services (CMIS) p
 
 toc::[]
 
-== Version 2.1.0 - September 18, 2015
+== Version 2.1.0 - October 14, 2015
 
 === Compatibility
 
