@@ -6,6 +6,7 @@
 
 [green]#Community#
 
+*Release Notes:* link:/release-notes/cmis-connector-release-notes[CMIS Connector Release Notes]
 
 == Introduction
 
