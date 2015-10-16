@@ -1,10 +1,5 @@
 = CMIS Connector Release Notes
 :keywords: release notes, connectors, CMIS
-:toc: macro
-
-:source-highlighter: prettify
-
-:!numbered:
 
 [green]#Community#
 
