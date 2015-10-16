@@ -1,18 +1,11 @@
 = CMIS Connector Release Notes
 :keywords: release notes, connectors, CMIS
-:toc: macro
-
-:source-highlighter: prettify
-
-:!numbered:
 
 [green]#Community#
 
 The Anypoint Connector for Content Management Interoperability Services (CMIS) provides connectivity to CMIS repositories, such as Alfresco and SharePoint. It enables synchronizing data and automating business processes across applications and systems.
 
-toc::[]
-
-== Version 2.1.0 - September 18, 2015
+== Version 2.1.0 - October 14, 2015
 
 === Compatibility
 

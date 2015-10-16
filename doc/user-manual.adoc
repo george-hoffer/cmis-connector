@@ -6,10 +6,11 @@
 
 [green]#Community#
 
-
 == Introduction
 
 The Anypoint Connector for Content Management Interoperability Services (CMIS) provides connectivity to CMIS repositories, such as Alfresco and SharePoint. It enables synchronizing data and automating business processes across applications and systems.
+
+*Release Notes:* link:/release-notes/cmis-connector-release-notes[CMIS Connector Release Notes]
 
 === Prerequisites
 
@@ -73,7 +74,7 @@ Follow these steps to configure CMIS connector in a Mule application:
 +
 image::global_config.png[global_config]
 +
-[width="100%",cols=",",options="header"]
+[width="100%",cols=",",options="header,autowidth"]
 |===
 |Parameter |Description |Default Value
 |*Name* |Enter a name for the configuration so it can be referenced later by the `config-ref` parameter in the flow. |
@@ -174,7 +175,7 @@ image:example_flow.png[Use Case Flow]
 +
 . Drag the CMIS connector onto the canvas, then select it to open the properties editor console.
 . Click the **+ **sign next to the *Connector Configuration* field to add a new global connector configuration:
-. Configure the CMIS global element with place holders defined in *mule-app.properties*.
+. Configure the CMIS global element with placeholders defined in *mule-app.properties*.
 +
 image:cmis_global_properties.png[CMIS Global Element Properties]
 +
@@ -189,7 +190,7 @@ image:cmis_global_properties.png[CMIS Global Element Properties]
 |*Endpoint* |Enter the type of the endpoint. You can leave this field blank for the application to use the default value. |ATOM
 |*Connection Timeout* |Specify the values for the connection time out. You can leave this field blank for the application to use the default value. |10000
 |*Use Alfresco Extension* |Specify whether the Alfresco Object Factory implementation should be utilized. Leave this checkbox deselected for the application to use the default value. |False
-|*Cxf Port Provider* |Specify the name of the CXF port provider here. The CMIS connector includes a default implementation. |org.apache.chemistry.opencmis.client.bindings.spi. webservices.CXFPortProvider
+|*Cxf Port Provider* |Specify the name of the CXF port provider here. The CMIS connector includes a default implementation. |`org.apache.chemistry.opencmis.client.bindings.spi. webservices.CXFPortProvider`
 |*Use Cookies* |Leave the checkbox deselected to disable the cookie support in the application. *Use Cookies* field can be used to enable/disable cookie support, and also implement custom cookie settings. |False
 |===
 +
