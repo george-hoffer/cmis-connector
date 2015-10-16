@@ -19,7 +19,7 @@ HOW TO DEMO:
         
      This will update the contents of the file named "demoFile" in the base directory with the text from pastie #1873255.
 
-  NOTE: You can also hit http://localhost:8081 and fill in the fields 'File Name' and 'Pastie ID' in the form.
+  NOTE: You can also hit http://localhost:8081 and fill in the fields 'File Name' and 'Pastie ID' in the form that appears.
 
 HOW IT WORKS:
 -------------
